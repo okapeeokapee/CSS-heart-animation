@@ -4,4 +4,8 @@ body{
 .heart{
   font-size: 40px;
   color: #e4e4e4;
+  user-select: none;
+}
+.like [type="checkbox"]:checked ~ .heart {
+  color: red;
 }
