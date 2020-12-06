@@ -55,7 +55,6 @@ body{
   animation-duration: .6s;
   animation-fill-mode: forwards;
 }
-
 @keyframes ripple{
   0%{
     transform:scale(0);
